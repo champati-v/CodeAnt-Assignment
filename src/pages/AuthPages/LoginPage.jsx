@@ -89,9 +89,9 @@ const LoginPage = () => {
             <button className="w-52 px-6 py-2 bg-blue-500 text-white font-medium rounded-md">
               SAAS
             </button>
-            <a href="/loginSelf"><button className="w-52 px-6 py-2 bg-gray-200 text-gray-800 font-medium rounded-md ml-2">
+            <Link to="/loginSelf"><button className="w-52 px-6 py-2 bg-gray-200 text-gray-800 font-medium rounded-md ml-2">
               Self Hosted
-            </button></a>
+            </button></Link>
           </div>
           <div className="space-y-4 flex flex-col items-center">
             <button className="w-3/4 lg:w-3/5 flex gap-2 items-center px-4 py-2 border border-gray-300 hover:bg-gray-100 text-gray-800 rounded-md">

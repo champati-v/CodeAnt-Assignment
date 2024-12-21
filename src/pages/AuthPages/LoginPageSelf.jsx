@@ -76,12 +76,12 @@ const LoginPage = () => {
             Welcome to CodeAnt AI
           </h1>
           <div className="flex justify-center mb-6 border-b border-gray-300 pb-5">
-            <a href="/login"><button className="w-48 px-6 py-2 bg-gray-200 text-gray-800 font-medium rounded-md">
+            <Link to="/login"><button className="w-48 px-6 py-2 bg-gray-200 text-gray-800 font-medium rounded-md">
               SAAS
-            </button></a>
-            <a href="/loginSelf"><button className="w-48 px-6 py-2 bg-blue-500 text-white font-medium rounded-md ml-2">
+            </button></Link>
+            <button className="w-48 px-6 py-2 bg-blue-500 text-white font-medium rounded-md ml-2">
               Self Hosted
-            </button></a>
+            </button>
           </div>
           <div className="space-y-4 flex flex-col items-center">
             <button className="w-2/3 lg:w-3/5 flex gap-2 items-center px-4 py-2 border border-gray-300 hover:bg-gray-100 text-gray-800 rounded-md">
